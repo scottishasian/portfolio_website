@@ -13,16 +13,18 @@ body {
 
 .project-container {
   border-style: solid;
-  background-color: black;
+  background-color: grey;
 
 }
 
 .project {
-  padding: 10px;
+  padding: 20px;
   max-width: 400px;
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: inline-block;
   border-radius: 10px;
   background-color: white;
@@ -31,4 +33,70 @@ body {
 img {
   height: 80%;
   width: 80%;
+}
+
+nav h1 {
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+.submit-box {
+  border-style: solid;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.modal-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    overflow: auto;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.modal-content:after {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    margin-left: -.05em;
+    content: '';
+}
+
+.modal-dialog {
+    position: relative;
+    outline: 0;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    max-width: auto;
+    cursor: default;
+    border-radius: 4px;
 }

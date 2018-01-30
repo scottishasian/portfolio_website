@@ -16,10 +16,11 @@ class ProjectContainer extends React.Component {
     }
   }
 
+
   render() {
     return (
       <div className="project-container">
-        <ProjectInfo info = {this.state.project}/>
+        <ProjectInfo info = {this.state.project} />
 
       </div>
     )
