@@ -15,7 +15,7 @@ or use:
 * npm install -g create-react-app 
 * create-react-app app_name 
 * rm src/logo.svg 
-
+-----------------------------------
 * React
 * React DOM
 * WebPack - ESB, JSX
