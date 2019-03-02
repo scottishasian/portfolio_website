@@ -2,7 +2,6 @@
 Front end and back end server
 
 
-20 lines (15 sloc) 319 Bytes
 npm init -y
 npm install
 npm install --save-dev mocha
